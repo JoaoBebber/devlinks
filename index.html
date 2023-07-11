@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+	<head>
+		<!-- Importação das fontes (Inter 400/500) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Definições dos metadados -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Título da aba do navegador -->
+		<title>DevLinks</title>
+
+		<!-- Conexão com o arquivo CSS -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div id="container">
+			<!-- Informações do Perfil (foto e nome) -->
+			<div id="profile">
+				<img
+					src="./assets/avatar.png"
+					alt="Foto de João Bebber sorrindo, usando boné e jaqueta preta, barba e fundo de rua preto e branco."
+				/>
+				<p>@JoãoBebber</p>
+			</div>
+
+			<!-- Switch dos temas claro/escuro -->
+			<div id="switch" onclick="toggleMode()">
+				<button></button>
+				<span></span>
+			</div>
+
+			<!-- Links disponíveis na página -->
+			<ul>
+				<li>
+					<a href="#">Inscrever-se no NLW</a>
+				</li>
+				<li>
+					<a href="#">Baixar meu e-book</a>
+				</li>
+				<li>
+					<a href="https://github.com/JoaoBebber" target="_blank">
+						Ver meu portfólio
+					</a>
+				</li>
+				<li>
+					<a href="https://rocketseat.com.br/explorer" target="_blank">
+						Conheça o Explorer
+					</a>
+				</li>
+			</ul>
+
+			<!-- Links das redes sociais -->
+			<div id="social-links">
+				<a href="https://github.com/JoaoBebber" target="_blank">
+					<ion-icon name="logo-github"></ion-icon>
+				</a>
+
+				<a href="https://www.instagram.com/joao_bebber/" target="_blank">
+					<ion-icon name="logo-instagram"></ion-icon>
+				</a>
+
+				<a
+					href="https://www.youtube.com/channel/UCHamU-94itpKeiPUvKiOe5w"
+					target="_blank"
+				>
+					<ion-icon name="logo-youtube"></ion-icon>
+				</a>
+
+				<a
+					href="https://www.linkedin.com/in/jo%C3%A3o-bebber-540a5820b/"
+					target="_blank"
+				>
+					<ion-icon name="logo-linkedin"></ion-icon>
+				</a>
+			</div>
+
+			<!-- Footer -->
+			<footer>
+				Created with <ion-icon name="heart"></ion-icon> by
+				<a href="https://github.com/afterocean" target="_blank">AfterOcean</a>
+			</footer>
+		</div>
+
+		<!-- Importação dos icones -> Ion-Icons -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+
+		<!-- Conexão com o arquivo JavaScript -->
+		<script src="script.js"></script>
+	</body>
+</html>
